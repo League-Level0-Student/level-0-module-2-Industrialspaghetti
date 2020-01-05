@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
+//    Copyright (c) The League of Amazing Programme.rs 2013-2019
 //    Level 0
 
 package _02_rock_paper_scissors;
@@ -81,7 +81,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 	//   Don't forget to create a Random object.
     	Random thing = new Random();
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = thing.nextInt(2 - 0)+0 + 0 ;
+        int opponentSelection = thing.nextInt(3 - 0)+0 + 0 ;
         
         //3. Run the program again. Is the result different?
  
