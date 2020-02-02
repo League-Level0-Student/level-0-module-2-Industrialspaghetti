@@ -23,11 +23,15 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
-
+for (int i = 0; i < 9999999; i++) {
+ tryCode (i );
+}
 	}
 
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
+
+	
 
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
 
@@ -35,8 +39,8 @@ public class SafeCracker {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
 			playTheSoundOfSuccess();
 			System.exit(0);
-		}
-	}
+		}}
+	
 
 	private static void playTheSoundOfSuccess() {
 		try {
@@ -45,6 +49,7 @@ public class SafeCracker {
 			Thread.sleep(3400);
 		} catch (Exception ex) {
 			ex.printStackTrace();
+			
 		}
 	}
 
