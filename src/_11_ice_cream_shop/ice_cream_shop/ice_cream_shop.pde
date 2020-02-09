@@ -8,6 +8,10 @@ void setup(){
 
      //Write code to add a cherry to the top of your ice cream. hint: ellipse
 
+addScoop ("Vanilla");
+makeIceCreamCone();
+addSprinkle(10);
+
 }
 
 /******************************************************************/
